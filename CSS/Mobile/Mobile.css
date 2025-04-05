@@ -1,0 +1,21 @@
+.nav-item{
+    display: block;
+   
+}
+.nav-item li {
+    float: left;
+    display: inline;
+    list-style: none;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.nav-item li:hover{
+    background-color: black;
+    transition-duration: 0.2;
+}
